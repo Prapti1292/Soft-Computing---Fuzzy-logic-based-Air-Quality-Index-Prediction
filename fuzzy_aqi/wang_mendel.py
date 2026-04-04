@@ -22,6 +22,9 @@ def extract_rules(
     membership_defs: dict[str, dict[str, dict[str, object]]],
     min_support: int = 2,
     min_confidence: float = 0.2,
+    extreme_consequents: tuple[str, ...] = ("Very Poor", "Severe"),
+    extreme_min_support: int = 1,
+    extreme_min_confidence: float = 0.05,
 ) -> list[FuzzyRule]:
     antecedent_totals: dict[tuple[str, ...], float] = {}
     antecedent_supports: dict[tuple[str, ...], int] = {}
@@ -68,7 +71,10 @@ def extract_rules(
         support_factor = support / max_support
         weight = avg_strength * confidence * support_factor
 
-        if support < min_support or confidence < min_confidence:
+        required_support = extreme_min_support if consequent in extreme_consequents else min_support
+        required_confidence = extreme_min_confidence if consequent in extreme_consequents else min_confidence
+
+        if support < required_support or confidence < required_confidence:
             continue
 
         rules.append(
