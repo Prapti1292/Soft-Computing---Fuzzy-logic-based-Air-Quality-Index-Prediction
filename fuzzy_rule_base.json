@@ -1,0 +1,3376 @@
+[
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Good",
+    "strength": 0.5992389854631341,
+    "support": 3241,
+    "confidence": 0.8109511751784267
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00019023973689354017,
+    "support": 2,
+    "confidence": 0.6373463735699925
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Poor",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00010992475438558669,
+    "support": 1,
+    "confidence": 0.5152062067133893
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.002581027404801057,
+    "support": 30,
+    "confidence": 0.8779639498647914
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0010089316860288,
+    "support": 8,
+    "confidence": 0.9456827293066052
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 6.469374022657537e-05,
+    "support": 1,
+    "confidence": 0.5196285448195247
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.040736395574968484,
+    "support": 314,
+    "confidence": 0.9777271234000429
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00034326225576619267,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00013480329829815624,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Moderate",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Very Poor",
+    "strength": 8.338805519759824e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0022118508454740836,
+    "support": 18,
+    "confidence": 0.9069764722668647
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Satisfactory",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Poor",
+    "strength": 0.00016629002131166026,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Good",
+      "NO2": "Satisfactory",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Very Poor",
+    "strength": 0.00018363585357112735,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.007737856353500431,
+    "support": 105,
+    "confidence": 0.7279127532211338
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 8.60472435122127e-05,
+    "support": 3,
+    "confidence": 0.4609800875741383
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0013984738850775062,
+    "support": 26,
+    "confidence": 0.6703278246235516
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 5.413340094934714e-05,
+    "support": 1,
+    "confidence": 0.5606914220528307
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00013641981725215886,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0005131894659376364,
+    "support": 6,
+    "confidence": 0.5225689969276748
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.163324120201689,
+    "support": 1564,
+    "confidence": 0.8843187517955596
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Good",
+    "strength": 0.0001075762176364005,
+    "support": 1,
+    "confidence": 0.5707776540687028
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.002156216140998191,
+    "support": 35,
+    "confidence": 0.897216081141796
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0007337322581144585,
+    "support": 11,
+    "confidence": 0.8082667765772391
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00014636039741157037,
+    "support": 1,
+    "confidence": 0.5051449025209692
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.01672392289099822,
+    "support": 178,
+    "confidence": 0.9533073428334223
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Satisfactory",
+    "strength": 9.991670333707205e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0003869625594260598,
+    "support": 5,
+    "confidence": 0.7161320591733477
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00038165379013448564,
+    "support": 5,
+    "confidence": 0.9416911700986783
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 0.00016834957260607083,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0001160144651432543,
+    "support": 3,
+    "confidence": 0.4108351358098444
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Moderate",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00018702176049284177,
+    "support": 3,
+    "confidence": 0.7460243898781375
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Moderate",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 0.0002175412731210327,
+    "support": 4,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Moderate",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00014743620533966582,
+    "support": 4,
+    "confidence": 0.841385226176466
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Moderate",
+      "CO": "Very Poor",
+      "O3": "Satisfactory",
+      "SO2": "Satisfactory"
+    },
+    "then": "Poor",
+    "strength": 7.67573526559664e-05,
+    "support": 3,
+    "confidence": 0.7042904100004747
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Poor",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 6.657289210805691e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0017179960513610327,
+    "support": 18,
+    "confidence": 0.9435653716366981
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Poor",
+    "strength": 0.00013785530903294343,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00011314097370949005,
+    "support": 2,
+    "confidence": 0.6754647364814748
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 7.046227608094889e-05,
+    "support": 1,
+    "confidence": 0.6668997422945885
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Very Poor",
+    "strength": 9.162259608075947e-05,
+    "support": 3,
+    "confidence": 0.35913460490404026
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0008413113587977165,
+    "support": 4,
+    "confidence": 0.7085148020208462
+  },
+  {
+    "if": {
+      "PM2.5": "Good",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00023681612127179536,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0008034775808547172,
+    "support": 9,
+    "confidence": 0.6325201647352935
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Good",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00015624341070133148,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.037444464434847,
+    "support": 447,
+    "confidence": 0.8280598647574485
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Moderate",
+    "strength": 0.0003738197365266723,
+    "support": 4,
+    "confidence": 0.7392721770671106
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00043196071347983126,
+    "support": 4,
+    "confidence": 0.9175232324301971
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.002432001597600248,
+    "support": 41,
+    "confidence": 0.8996389900454508
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00015964752776995126,
+    "support": 6,
+    "confidence": 0.4829237223799581
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0004078041708173584,
+    "support": 4,
+    "confidence": 0.5817414044812136
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.007279631617606943,
+    "support": 91,
+    "confidence": 0.8083344834833114
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 6.131043235927724e-05,
+    "support": 1,
+    "confidence": 0.59885081797471
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0002560801346473651,
+    "support": 4,
+    "confidence": 0.7258300763740525
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 3.1587973652318866e-05,
+    "support": 1,
+    "confidence": 0.5537491354705403
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Moderate",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 8.979753847294988e-05,
+    "support": 2,
+    "confidence": 0.5844783868358185
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Poor",
+      "CO": "Moderate",
+      "O3": "Satisfactory",
+      "SO2": "Satisfactory"
+    },
+    "then": "Poor",
+    "strength": 9.126614472032245e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00477209695767163,
+    "support": 69,
+    "confidence": 0.916723340045377
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00016962229738241247,
+    "support": 7,
+    "confidence": 0.6313909673176598
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0006688165484841622,
+    "support": 15,
+    "confidence": 0.9416195537877703
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 0.00016167063284512539,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.006879944828638375,
+    "support": 86,
+    "confidence": 0.7836255331388191
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00031836033306333603,
+    "support": 4,
+    "confidence": 0.6934400448256569
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 5.979591362191569e-05,
+    "support": 1,
+    "confidence": 0.43015507136054637
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00010463508665456122,
+    "support": 2,
+    "confidence": 0.7807813713174924
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.003079293005120312,
+    "support": 47,
+    "confidence": 0.717026681440909
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 8.535576755663615e-05,
+    "support": 2,
+    "confidence": 0.8197395427202091
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0007030259891127405,
+    "support": 8,
+    "confidence": 0.6771490789408139
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00016905313274179608,
+    "support": 2,
+    "confidence": 0.6635767567790631
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Poor",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 5.676792389364435e-05,
+    "support": 2,
+    "confidence": 0.5988495330497655
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00023469341626072197,
+    "support": 6,
+    "confidence": 0.7634172273065283
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.007586156831094899,
+    "support": 98,
+    "confidence": 0.6859253896505759
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00023511148864290956,
+    "support": 4,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0010865795736280642,
+    "support": 20,
+    "confidence": 0.8534698948560507
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00018676183246506286,
+    "support": 4,
+    "confidence": 0.5028687788540851
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0017759200339392753,
+    "support": 23,
+    "confidence": 0.7352435720942075
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00010947262668291582,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 4.336439536417433e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0003261957702205371,
+    "support": 7,
+    "confidence": 0.5818890698948784
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0002675150642482168,
+    "support": 1,
+    "confidence": 0.49409732629878983
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0009737922529609753,
+    "support": 9,
+    "confidence": 0.7767113169476088
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0009046740583472119,
+    "support": 13,
+    "confidence": 0.7425841755494716
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0002986082068452306,
+    "support": 4,
+    "confidence": 0.4303956787773304
+  },
+  {
+    "if": {
+      "PM2.5": "Moderate",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00010331553525162355,
+    "support": 1,
+    "confidence": 0.6075422373884138
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0005395235838430035,
+    "support": 5,
+    "confidence": 0.8855227327454741
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.010523050211955464,
+    "support": 120,
+    "confidence": 0.7342915052589993
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Poor",
+    "strength": 0.00020673845995000556,
+    "support": 2,
+    "confidence": 0.7494216388461228
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0001859531985214912,
+    "support": 1,
+    "confidence": 0.7750897041959582
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0005358406805842873,
+    "support": 7,
+    "confidence": 0.7571975094062803
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00014985981907841088,
+    "support": 3,
+    "confidence": 0.7256748073625888
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0013489944425750077,
+    "support": 16,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0029362932468266164,
+    "support": 37,
+    "confidence": 0.7081591968148249
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00012612318904922513,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Moderate",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 7.736385045117025e-05,
+    "support": 2,
+    "confidence": 0.6338419652981291
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Poor",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 9.638327489602947e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0009686004423056022,
+    "support": 18,
+    "confidence": 0.6634053041703191
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0002385484204678326,
+    "support": 4,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0002855899920855448,
+    "support": 2,
+    "confidence": 0.8337352326148249
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.011174656193279769,
+    "support": 146,
+    "confidence": 0.7946188204306437
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Poor",
+    "strength": 0.0008583488088791913,
+    "support": 9,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00014652149272300887,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0004024543046466237,
+    "support": 8,
+    "confidence": 0.859202495766408
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0012682423160113455,
+    "support": 18,
+    "confidence": 0.8991754809973493
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0004794998293734687,
+    "support": 7,
+    "confidence": 0.9013241600805912
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.010230396097118477,
+    "support": 133,
+    "confidence": 0.8914231082985232
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 4.708770561836096e-05,
+    "support": 2,
+    "confidence": 0.5688607840608957
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Moderate",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0007481628076519587,
+    "support": 10,
+    "confidence": 0.949969729238099
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Moderate",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 7.181964450491168e-05,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0029276815343470793,
+    "support": 45,
+    "confidence": 0.8636175722977585
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 6.228766173795364e-05,
+    "support": 1,
+    "confidence": 0.6288002479194518
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.001242861533639057,
+    "support": 23,
+    "confidence": 0.953863020179006
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Poor",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 6.593889763333591e-05,
+    "support": 1,
+    "confidence": 0.5519588924483375
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0018345896983625164,
+    "support": 30,
+    "confidence": 0.8010319069511728
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0002409133825287582,
+    "support": 5,
+    "confidence": 0.8744269047738024
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0006446000663708954,
+    "support": 13,
+    "confidence": 0.9613610756607671
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.001249621508156179,
+    "support": 11,
+    "confidence": 0.5564670234695351
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00022909772137434973,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00012163226883582454,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0007765273679020004,
+    "support": 3,
+    "confidence": 0.3345125876757329
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 9.63795520749245e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00032857889729678814,
+    "support": 4,
+    "confidence": 0.4605180298722171
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 3.697297213304619e-05,
+    "support": 1,
+    "confidence": 0.6016222993923428
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0006135716355837272,
+    "support": 9,
+    "confidence": 0.7090640686820804
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Moderate",
+    "strength": 0.00014736414030236384,
+    "support": 1,
+    "confidence": 0.8042249041418666
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00017759142598005288,
+    "support": 1,
+    "confidence": 0.49615344261442446
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.001680582578603148,
+    "support": 23,
+    "confidence": 0.7449015626791226
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00017003098744018268,
+    "support": 4,
+    "confidence": 0.6886519444442992
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 6.376855276201425e-05,
+    "support": 2,
+    "confidence": 0.5959426755231321
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.002156717573691633,
+    "support": 34,
+    "confidence": 0.8425759233584087
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 3.410552674029023e-05,
+    "support": 1,
+    "confidence": 0.5272122242863179
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Moderate",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0004330016254527467,
+    "support": 3,
+    "confidence": 0.7677936628995247
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0013828820277752133,
+    "support": 16,
+    "confidence": 0.5128915772520083
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 4.210100235610134e-05,
+    "support": 1,
+    "confidence": 0.5674961040306068
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 7.446901213185271e-05,
+    "support": 1,
+    "confidence": 0.7038454890360658
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Moderate",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00020605857131432393,
+    "support": 3,
+    "confidence": 0.8617828895573423
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00017134667728273834,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Poor",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0001343824355466133,
+    "support": 2,
+    "confidence": 0.7118928760202796
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0011111279690379826,
+    "support": 22,
+    "confidence": 0.7284360897997436
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00011247600772368475,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00030888969703733423,
+    "support": 6,
+    "confidence": 0.6300590560492698
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.010806012965713437,
+    "support": 145,
+    "confidence": 0.6442043342196825
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00016064604627540876,
+    "support": 4,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 7.116605336492889e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.005580876519925372,
+    "support": 57,
+    "confidence": 0.8549759248095005
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Good",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00018372608389725462,
+    "support": 4,
+    "confidence": 0.6955679809544201
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Good",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00032013782782432256,
+    "support": 5,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.03191034872628327,
+    "support": 441,
+    "confidence": 0.6119511575920812
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0009156372798425635,
+    "support": 12,
+    "confidence": 0.654132155743703
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Poor",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00010343947431722143,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0021867488486030477,
+    "support": 34,
+    "confidence": 0.7272081331461475
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0002665205198244483,
+    "support": 5,
+    "confidence": 0.6803169587170227
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 4.67106107019598e-05,
+    "support": 1,
+    "confidence": 0.6342791808790564
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0037405800739190973,
+    "support": 63,
+    "confidence": 0.48117790705349833
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0003884657466207713,
+    "support": 6,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Good",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0007443222455703096,
+    "support": 10,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Moderate",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00011303438466702236,
+    "support": 1,
+    "confidence": 0.7044024035451761
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Poor",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 9.254643129856844e-05,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0014053399450675475,
+    "support": 30,
+    "confidence": 0.5098424876796878
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 8.298072433442687e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00021628040421800253,
+    "support": 6,
+    "confidence": 0.5725824037761369
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Moderate",
+      "NO2": "Satisfactory",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 0.0001249463006898463,
+    "support": 3,
+    "confidence": 0.5530514132373053
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.005764407220224457,
+    "support": 61,
+    "confidence": 0.7016198388226909
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Moderate",
+    "strength": 0.0010140210059549654,
+    "support": 10,
+    "confidence": 0.9353738695325816
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.00017450249070079433,
+    "support": 1,
+    "confidence": 0.642101702524494
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0017135625400187837,
+    "support": 19,
+    "confidence": 0.9027806748565954
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00029172242471538353,
+    "support": 3,
+    "confidence": 0.5907551160227482
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.15576132817481805,
+    "support": 1575,
+    "confidence": 0.9154770023777481
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0009426221169798848,
+    "support": 9,
+    "confidence": 0.8194619186444033
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00038981719703904305,
+    "support": 6,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00615939175180702,
+    "support": 82,
+    "confidence": 0.783507453694845
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.000825784239174187,
+    "support": 13,
+    "confidence": 0.7184215759978708
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Very Poor",
+    "strength": 6.00108585241395e-05,
+    "support": 1,
+    "confidence": 0.562861944758325
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0005376427177237708,
+    "support": 5,
+    "confidence": 0.4580926075832068
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Poor",
+    "strength": 7.099367391054952e-05,
+    "support": 2,
+    "confidence": 0.5031374316305368
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.013884105044884857,
+    "support": 170,
+    "confidence": 0.8521761638052111
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00030227092798654085,
+    "support": 3,
+    "confidence": 0.8543837312969252
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.0001357330654345771,
+    "support": 3,
+    "confidence": 0.5165275393420853
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.000150073780052467,
+    "support": 3,
+    "confidence": 0.6835734779178675
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 0.0004002112844858888,
+    "support": 4,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0001645489827656659,
+    "support": 2,
+    "confidence": 0.8011516829727928
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 7.680301093844422e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Moderate",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 8.884635378520499e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Moderate",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Moderate"
+    },
+    "then": "Severe",
+    "strength": 5.939353560226427e-05,
+    "support": 1,
+    "confidence": 0.7465866681323384
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Moderate",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 0.00017680458902888832,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Moderate",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Very Poor",
+    "strength": 0.0001429227051745841,
+    "support": 3,
+    "confidence": 0.5647627864276826
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Poor",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00037984231403113836,
+    "support": 4,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Poor",
+      "CO": "Severe",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 5.185307444884713e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Poor",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Moderate"
+    },
+    "then": "Very Poor",
+    "strength": 4.224463104027726e-05,
+    "support": 2,
+    "confidence": 0.5939846548347788
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.006285975955527314,
+    "support": 77,
+    "confidence": 0.9584529879771795
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Moderate",
+    "strength": 5.5491804983037904e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Very Poor",
+    "strength": 5.757276669307629e-05,
+    "support": 1,
+    "confidence": 0.6591394648890553
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.0013922528076072724,
+    "support": 22,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 4.585116541454439e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Satisfactory",
+      "NO2": "Satisfactory",
+      "CO": "Very Poor",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Very Poor",
+    "strength": 0.0001230562072516874,
+    "support": 4,
+    "confidence": 0.6142629626333597
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0007795772919608674,
+    "support": 2,
+    "confidence": 0.3552595454931714
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Severe",
+    "strength": 0.0014990526007979997,
+    "support": 8,
+    "confidence": 0.7399481114903939
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00014439580650257391,
+    "support": 1,
+    "confidence": 0.5141576813025593
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 0.0012976930056474143,
+    "support": 10,
+    "confidence": 0.49503462518718694
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Poor",
+    "strength": 0.0004986526713205042,
+    "support": 6,
+    "confidence": 0.574984334203136
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Moderate",
+    "strength": 0.00018652963852254845,
+    "support": 1,
+    "confidence": 0.3861322028704734
+  },
+  {
+    "if": {
+      "PM2.5": "Satisfactory",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00011281733327123351,
+    "support": 1,
+    "confidence": 0.6163425747199329
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0004251997702136298,
+    "support": 2,
+    "confidence": 0.5140807339052679
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 6.338427535477007e-05,
+    "support": 1,
+    "confidence": 0.5508334568873319
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0005543172309007616,
+    "support": 5,
+    "confidence": 0.8239310258805292
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Severe",
+      "NO2": "Moderate",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0007424460066917354,
+    "support": 7,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Severe",
+      "NO2": "Moderate",
+      "CO": "Satisfactory",
+      "O3": "Poor",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00015814545548436013,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Severe",
+      "NO2": "Moderate",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00019961965475556978,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00024185167526364693,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0022534510835728557,
+    "support": 21,
+    "confidence": 0.9697332009762923
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.00016915140311632703,
+    "support": 3,
+    "confidence": 0.7914698729040491
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0008267100906294307,
+    "support": 8,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Severe",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 7.610007901872356e-05,
+    "support": 1,
+    "confidence": 0.5468452177109056
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0004458208463840012,
+    "support": 8,
+    "confidence": 0.6845317177725243
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Moderate",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 5.737650236906667e-05,
+    "support": 1,
+    "confidence": 0.5932089083922703
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00035692893686158355,
+    "support": 8,
+    "confidence": 0.6790948605662046
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Poor",
+      "NO2": "Moderate",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 8.646424359054851e-05,
+    "support": 2,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00045102654257243483,
+    "support": 9,
+    "confidence": 0.8856825896996876
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Poor",
+    "strength": 8.816023435000359e-05,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Satisfactory",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Satisfactory",
+    "strength": 0.00011111592213437958,
+    "support": 1,
+    "confidence": 0.5482934282728812
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 0.0008125503924240984,
+    "support": 5,
+    "confidence": 0.7802507032141892
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0001354241230591047,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.000624399817395836,
+    "support": 10,
+    "confidence": 0.838121103759514
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 4.5826751942804576e-05,
+    "support": 1,
+    "confidence": 0.593932699900341
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Moderate",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00011368055846986117,
+    "support": 3,
+    "confidence": 0.6479704364216815
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Moderate",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00033803733337986816,
+    "support": 4,
+    "confidence": 0.6897675024143248
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Moderate",
+      "CO": "Satisfactory",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0001241618080307946,
+    "support": 3,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Moderate",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Severe",
+    "strength": 6.833098446428375e-05,
+    "support": 1,
+    "confidence": 0.5833133099356985
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0010348026570429479,
+    "support": 9,
+    "confidence": 0.6922400686575337
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0016364537524532305,
+    "support": 23,
+    "confidence": 0.7508016246610818
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Satisfactory"
+    },
+    "then": "Very Poor",
+    "strength": 0.00010258648399644749,
+    "support": 1,
+    "confidence": 0.45365243138866346
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00037739364740967856,
+    "support": 5,
+    "confidence": 0.8138522557657772
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Severe",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00046062257292572747,
+    "support": 9,
+    "confidence": 0.7525523366607103
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0017852041117245563,
+    "support": 23,
+    "confidence": 0.8074264406104091
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Poor",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0002827151001475451,
+    "support": 5,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Good",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0016901377420560878,
+    "support": 31,
+    "confidence": 0.7970264764170283
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Moderate",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0005643669053568751,
+    "support": 10,
+    "confidence": 0.9708161206868476
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Moderate",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00022522629145434482,
+    "support": 3,
+    "confidence": 0.8139510841491252
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0007319208546996558,
+    "support": 14,
+    "confidence": 0.7938848663091586
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Good",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.00014598893908393195,
+    "support": 3,
+    "confidence": 0.8976948598675061
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Good",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0022560157233608275,
+    "support": 36,
+    "confidence": 0.9212265056907109
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Moderate",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.000262092177656856,
+    "support": 5,
+    "confidence": 1.0
+  },
+  {
+    "if": {
+      "PM2.5": "Very Poor",
+      "PM10": "Very Poor",
+      "NO2": "Satisfactory",
+      "CO": "Satisfactory",
+      "O3": "Satisfactory",
+      "SO2": "Good"
+    },
+    "then": "Very Poor",
+    "strength": 0.0007639171129064218,
+    "support": 12,
+    "confidence": 0.8720686209325665
+  }
+]
