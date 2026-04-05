@@ -4,8 +4,10 @@ import argparse
 import json
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
 
 from fuzzy_aqi.config import INPUT_COLUMNS, TARGET_COLUMN
 from fuzzy_aqi.data import load_dataset, split_dataset
@@ -89,6 +91,40 @@ def run_evaluation(
     results_df["Squared_Error"] = (results_df[TARGET_COLUMN] - results_df["Predicted_AQI"]) ** 2
     results_df.to_csv("fuzzy_test_predictions.csv", index=False)
 
+    # Generate and save evaluation plots
+    Path("evaluation_plots").mkdir(exist_ok=True)
+
+    # Plot 1: Actual vs Predicted AQI
+    plt.figure(figsize=(8, 6))
+    plt.scatter(actuals, predictions, alpha=0.5, color='blue')
+    plt.plot([min(actuals), max(actuals)], [min(actuals), max(actuals)], 'r--', linewidth=2)
+    plt.xlabel('Actual AQI')
+    plt.ylabel('Predicted AQI')
+    plt.title('Actual vs Predicted AQI')
+    plt.grid(True, alpha=0.3)
+    plt.savefig('evaluation_plots/actual_vs_predicted.png', dpi=300, bbox_inches='tight')
+    plt.close()
+
+    # Plot 2: Prediction Error Histogram
+    errors = actuals - predictions
+    plt.figure(figsize=(8, 6))
+    plt.hist(errors, bins=50, alpha=0.7, color='green', edgecolor='black')
+    plt.xlabel('Prediction Error (Actual - Predicted)')
+    plt.ylabel('Frequency')
+    plt.title('Prediction Error Distribution')
+    plt.grid(True, alpha=0.3)
+    plt.savefig('evaluation_plots/error_histogram.png', dpi=300, bbox_inches='tight')
+    plt.close()
+
+    # Plot 3: Bucket Confusion Matrix Heatmap
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(confusion_matrix, annot=True, fmt='d', cmap='Blues', cbar=True)
+    plt.title('AQI Bucket Confusion Matrix')
+    plt.xlabel('Predicted Bucket')
+    plt.ylabel('Actual Bucket')
+    plt.savefig('evaluation_plots/confusion_matrix.png', dpi=300, bbox_inches='tight')
+    plt.close()
+
     rule_base_json = json.dumps(
         [
             {
@@ -106,6 +142,11 @@ def run_evaluation(
 
     metrics["predictions_path"] = "fuzzy_test_predictions.csv"
     metrics["rule_base_path"] = "fuzzy_rule_base.json"
+    metrics["plots_saved"] = [
+        "evaluation_plots/actual_vs_predicted.png",
+        "evaluation_plots/error_histogram.png",
+        "evaluation_plots/confusion_matrix.png"
+    ]
     return metrics
 
 

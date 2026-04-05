@@ -48,7 +48,7 @@ def fallback_aqi(
             input_memberships[column][label]
             for column, label in zip(INPUT_COLUMNS, rule.antecedent)
         ]
-        compatibility = antecedent_geometric_mean(matching_values)
+        compatibility = sum(matching_values) / len(matching_values) if matching_values else 0.0
         backup_score = compatibility * rule.strength
         if backup_score <= 0.0:
             continue
@@ -56,8 +56,17 @@ def fallback_aqi(
         scored_rules.append((backup_score, consequent_index, rule))
 
     if not scored_rules:
-        severe_center = output_centers.get("Severe", 400.0)
-        return severe_center, {
+        # Find the worst (highest index) dominant label from inputs
+        worst_index = 0
+        for memberships in input_memberships.values():
+            label, degree = max(memberships.items(), key=lambda item: item[1])
+            if degree > 0.0:
+                index = label_order.get(label, 0)
+                if index > worst_index:
+                    worst_index = index
+        worst_label = [label for label, idx in label_order.items() if idx == worst_index][0]
+        prediction = output_centers.get(worst_label, 50.0)
+        return prediction, {
             "used_fallback": True,
             "fallback_reason": "no_matching_rules",
             "fallback_rule_count": 0,
