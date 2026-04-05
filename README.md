@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AQI Fuzzy Logic Prediction
 
 This project builds an Air Quality Index (AQI) prediction pipeline using:
@@ -145,3 +146,7 @@ python3 run_fuzzy_evaluation.py
 - Gaussian membership experiments were removed.
 - `Date` is retained as metadata only and is not used as a fuzzy input.
 - No normalization or scaling is used because fuzzy membership functions handle the raw value ranges directly.
+=======
+# Soft-Computing---Fuzzy-logic-based-Air-Quality-Index-Prediction
+This project predicts Air Quality Index (AQI) using Mamdani Fuzzy Logic and the Wang–Mendel method. Inputs like PM2.5, PM10, CO, NO₂, and SO₂ are fuzzified and processed to provide accurate, interpretable, real-time AQI predictions.
+>>>>>>> 9b7b79bc157c021fc8d537d30bade5462447c269
